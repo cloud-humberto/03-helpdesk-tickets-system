@@ -1,0 +1,15 @@
+# SQLite database runtime files
+database/*.sqlite
+database/*.sqlite-journal
+database/*.sqlite-wal
+database/*.sqlite-shm
+!database/.gitkeep
+
+# Uploads directory protection
+storage/uploads/*
+!storage/uploads/.gitkeep
+!storage/uploads/index.html
+
+# System
+.DS_Store
+Thumbs.db
